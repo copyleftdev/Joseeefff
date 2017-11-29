@@ -42,7 +42,7 @@ def send_mail(send_from, send_to, subject, text,
                 fil.read(),
                 Name=basename(f)
             )
-        part['Content-Disposition'] = 'attachment; filename="{}"' % basename(f)
+        part['Content-Disposition'] = 'attachment; filename="%s"' % basename(f)
         msg.attach(part)
 
         smtp = smtplib.SMTP(server)
