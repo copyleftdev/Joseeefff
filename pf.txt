@@ -1,0 +1,6 @@
+same_file_underscore.txt
+same_file_underscore2.txt
+a_new_file.txt
+a_b_c.txt
+f_d_c.txt
+another_test_file_used_for_testing.txt
